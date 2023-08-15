@@ -1,0 +1,10 @@
+﻿<Application
+    x:Class="PalClient.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PalClient">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BaseBrush" Color="{ThemeResource SystemColorControlAccentColor}" />
+        <SolidColorBrush x:Key="AcrylicBrush" Color="{ThemeResource SystemColorControlAccentColor}" Opacity="0.6" />
+    </Application.Resources>
+</Application>

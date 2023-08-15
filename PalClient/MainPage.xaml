@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="PalClient.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PalClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" FontFamily="Segoe UI Variable Text">
+
+    <Grid>
+        <!--<Grid.Background>-->
+        <!--    <AcrylicBrush BackgroundSource="HostBackdrop" TintOpacity="0.6" TintColor="{ThemeResource }">-->
+        <!--    </AcrylicBrush>-->
+        <!--</Grid.Background>-->
+        <!--<Border Opacity="0.9"/>-->
+        <Grid.Background>
+            <AcrylicBrush
+              BackgroundSource="HostBackdrop"
+              TintColor="Black"
+              TintOpacity="0.6"
+              FallbackColor="#FF001A2F"/>
+        </Grid.Background>
+        <ListBox x:Name="TabMenu" Width="355" Background="#7F000000" HorizontalAlignment="Left" FontSize="16" Margin="0,122,0,0">
+            <ListBoxItem Content="Launch Roblox"/>
+            <ListBoxItem Content="Client Settings"/>
+            <ListBoxItem Content="Display Settings"/>
+            <ListBoxItem Content="Custom Settings (Advanced)"></ListBoxItem>
+            <ListBoxItem Content="(WIP) PalClient Play"></ListBoxItem>
+        </ListBox>
+        <Frame Background="#7F000000" HorizontalAlignment="Left" VerticalAlignment="Top" Width="355" Height="122">
+            <Image Source="/Assets/StoreLogo.scale-400.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <Image.RenderTransform>
+                    <CompositeTransform ScaleX="0.6" ScaleY="0.6"/>
+                </Image.RenderTransform>
+            </Image>
+        </Frame>
+        <UserControl HorizontalAlignment="Left" Margin="493,229,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="116,50,0,0" TextWrapping="Wrap" Text="PalClient" VerticalAlignment="Top" Width="235" FontSize="18" FontWeight="Bold"/>
+        <ContentControl Content="Skibidi bop" HorizontalAlignment="Left" Margin="391,93,0,0" VerticalAlignment="Top" Height="617" Width="861"/>
+        <TextBlock x:Name="CurrentPageTitle" HorizontalAlignment="Left" Margin="391,29,0,0" TextWrapping="Wrap" Text="Launch Roblox" VerticalAlignment="Top" Height="41" Width="678" FontWeight="Bold" FontSize="36"/>
+
+    </Grid>
+</Page>

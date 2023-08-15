@@ -1,0 +1,24 @@
+﻿{
+  "tabs": [
+    {
+      "display": "Launch",
+      "id": "LaunchRobloxTab"
+    },
+    {
+      "display": "Client Settings",
+      "id": "RBLXClientSettings"
+    },
+    {
+      "display": "Display Settings",
+      "id": "RBLXWindowDSettings"
+    },
+    {
+      "display": "Advanced Custom Settings",
+      "id": "FFlagsSet"
+    },
+    {
+      "display": "PalClient Play (Beta)",
+      "id": "PalClientPlay_Home"
+    }
+  ]
+}
