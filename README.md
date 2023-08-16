@@ -26,7 +26,11 @@ Check if you have enough space in the C drive (this app is pretty small, so no w
 (If the 'Run with PowerShell" option does not appear, you may need to update PowerShell or Windows, or install PowerShell.)
 
 After that, you may access PalClient by searching it in the search menu.
+
 NOTE: In order to use PalClient Play you need RoPro to be installed in your main browser!
+
+
+An automated install wizard is (maybe idk) being worked on!
 
 # Compile process
 Install Visual Studio 2022 (2022, not any other version) and with it install "Universal Windows Platform" in the Visual Studio Installer.
