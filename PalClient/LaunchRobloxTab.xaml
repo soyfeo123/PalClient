@@ -10,6 +10,9 @@
     d:DesignWidth="400" Background="#19000000">
 
     <Grid>
+        <Button x:Name="PBtn" Content="Play!" VerticalAlignment="Top" Width="400" Background="#4C42FF00" HorizontalAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="0,37,0,0" TextWrapping="Wrap" Text="Starts up Roblox with the changed settings." VerticalAlignment="Top"/>
+        <TextBlock x:Name="Info" HorizontalAlignment="Left" Margin="0,72,0,0" TextWrapping="Wrap" Text="Getting info..." VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>

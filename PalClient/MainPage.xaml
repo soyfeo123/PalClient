@@ -37,7 +37,7 @@
         </Frame>
         <UserControl HorizontalAlignment="Left" Margin="493,229,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="116,50,0,0" TextWrapping="Wrap" Text="PalClient" VerticalAlignment="Top" Width="235" FontSize="18" FontWeight="Bold"/>
-        <ContentControl Content="Skibidi bop" HorizontalAlignment="Left" Margin="391,93,0,0" VerticalAlignment="Top" Height="617" Width="861"/>
+        <ContentControl x:Name="TabContent" Content="" HorizontalAlignment="Left" Margin="391,93,0,0" VerticalAlignment="Top" Height="617" Width="861"/>
         <TextBlock x:Name="CurrentPageTitle" HorizontalAlignment="Left" Margin="391,29,0,0" TextWrapping="Wrap" Text="Launch Roblox" VerticalAlignment="Top" Height="41" Width="678" FontWeight="Bold" FontSize="36"/>
 
     </Grid>

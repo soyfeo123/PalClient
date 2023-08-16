@@ -90,6 +90,7 @@ namespace PalClient
         {
             ApplicationView.GetForCurrentView().Title = (string)((ListBoxItem)TabMenu.Items[TabMenu.SelectedIndex]).Content;
             CurrentPageTitle.Text = (string)((ListBoxItem)TabMenu.Items[TabMenu.SelectedIndex]).Content.ToString();
+            TabContent.Content = new LaunchRobloxTab();
         }
     }
 
